@@ -1,5 +1,5 @@
 
-readme = """# 即时天气 - 实时天气预报网页应用
+即时天气 - 实时天气预报网页应用
 
 一个简洁美观的天气预报网页应用，支持城市搜索、实时天气展示、未来5天预报、地理位置定位和数据持久化功能。
 
@@ -269,10 +269,4 @@ const barOffset = ((low - minTemp) / tempRange) * 100;
 ## 作者
 
 基于 Open-Meteo 免费 API 构建
-"""
 
-# 使用 LF 换行符（Unix 格式），确保 GitHub 兼容
-with open('/mnt/agents/output/README.md', 'w', encoding='utf-8', newline='\n') as f:
-    f.write(readme)
-
-print("已重新生成 README.md（Unix 换行符格式）")
