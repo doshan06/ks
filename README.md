@@ -5,7 +5,7 @@
 
 ## 在线体验
 
-直接在浏览器中打开 `weather_app.html` 即可使用，无需安装任何依赖。
+直接在浏览器中打开 `https://doshan06.github.io/ks/` 即可使用，无需安装任何依赖。
 
 ## 功能特性
 
@@ -243,15 +243,6 @@ const barOffset = ((low - minTemp) / tempRange) * 100;
 
 ---
 
-## 项目结构
-
-```
-.
-├── weather_app.html    # 完整单页应用（HTML + CSS + JS）
-└── README.md           # 项目说明文档
-```
-
-单文件设计，无需构建工具，直接浏览器打开即可运行。
 
 ## 数据来源
 
